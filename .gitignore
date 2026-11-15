@@ -1,0 +1,91 @@
+
+# =====================================
+# NODE.JS / NPM
+# =====================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =====================================
+# ENVIRONMENT VARIABLES / SECRETS
+# =====================================
+.env
+.env.*
+!.env.example
+
+# =====================================
+# REACT / VITE / FRONTEND
+# =====================================
+dist/
+build/
+.vite/
+coverage/
+
+# =====================================
+# BACKEND / EXPRESS.JS
+# =====================================
+logs/
+*.log
+uploads/*
+!uploads/.gitkeep
+tmp/
+temp/
+
+# =====================================
+# CACHE / GENERATED FILES
+# =====================================
+.cache/
+.parcel-cache/
+.eslintcache
+*.tsbuildinfo
+
+# =====================================
+# TESTING
+# =====================================
+.nyc_output/
+playwright-report/
+test-results/
+
+# =====================================
+# EDITORS / IDE
+# =====================================
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.swn
+
+# =====================================
+# OPERATING SYSTEM
+# =====================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =====================================
+# DEPENDENCIES / LOCK TEMP FILES
+# =====================================
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# =====================================
+# OPTIONAL DEPLOYMENT FILES
+# =====================================
+.vercel/
+.netlify/
+
+# =====================================
+# DATABASE / BACKUP FILES
+# =====================================
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.dump
